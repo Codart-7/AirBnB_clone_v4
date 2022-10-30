@@ -8,11 +8,10 @@
     <link rel="stylesheet" type="text/css" href="../static/styles/6-filters.css">
     <link type="text/css" rel="stylesheet" href="../static/styles/8-places.css">
     <link rel="icon" href="../static/images/icon.png" />
-    <title>HBnB</title>
 
-    <!-- JQuery -->
-    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+	<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
     <script src="{{ url_for('static', filename='scripts/1-hbnb.js') + '?' + cache_id }}"></script>
+    <title>HBnB</title>
   </head>
   <body>
     <header>
@@ -45,10 +44,11 @@
 	    <ul>
 	      {% for amenity in amenities %}
 	      <li>
-            <input type="checkbox" data-id="{{ amenity.id }}" data-name="{{ amenity.name }}">
-            {{ amenity.name }}
-            </input>
-          </li>
+			<input type="checkbox" data-id="{{ amenity.id }}" data-name="{{ amenity.name }}">
+				{{ amenity.name }}
+			</input>
+			{{ amenity.name }}
+		  </li>
 	      {% endfor %}
 	    </ul>
 	  </div>
@@ -80,7 +80,7 @@
       </section>
     </div>
     <footer>
-      <p>ALX  School</p>
+      <p>Holberton School</p>
     </footer>
   </body>
 </html>
