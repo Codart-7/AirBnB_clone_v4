@@ -159,6 +159,7 @@ Jennifer Huang - [Github](https://github.com/jhuang10123) / [Twitter](https://tw
 Jhoan Zamora - [Github](https://github.com/jzamora5) / [Twitter](https://twitter.com/JhoanZamora10)  
 David Ovalle - [Github](https://github.com/Nukemenonai) / [Twitter](https://twitter.com/disartDave)
 Michael Adisa - [Github](https://github.com/Codart-7) / [Twitter](https://twitter.com/michael)
+
 Tibebe Solomon - [Github](https://github.com/sapencio) / [Twitter](https://twitter.com/tibebesolo)
 
 Second part of Airbnb: Joann Vuong
